@@ -1,0 +1,33 @@
+{
+  "name": "AKINATOR BOT",
+  "description": "A telegram bot made with python, to play Akinator game",
+  "logo": "https://telegra.ph/file/a180962aa6ffd43f0c698.jpg",
+    "keywords": [
+    "telegram",
+    "Bot",
+    "Akinator"
+  ],
+  "repository": "https://t.me/scrable",
+  "website": "https://t.me/scrable",
+  "success_url": "https://t.me/scrable",
+  "env": {
+    "aki_mongo_host": {
+      "description": "mongodb+srv://ozi:parolam34@cluster0.zyu8z.mongodb.net/?retryWrites=true&w=majority",
+      "value": "",
+      "required": true
+    },
+    "bot_token": {
+      "description": "6718352917:AAFzbq143m6MuCZTcFGCzjXlUPVV86bXrRY",
+      "value": "",
+      "required": true
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ]
+}
